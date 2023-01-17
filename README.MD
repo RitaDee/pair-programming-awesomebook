@@ -116,9 +116,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-```I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
+I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
 
-```I give credit to ourselves for collaborating on this project.
+I give credit to ourselves for collaborating on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📝 License <a name="license"></a>
