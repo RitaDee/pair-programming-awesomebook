@@ -126,4 +126,3 @@ Feel free to check the [issues page](../../issues/).
 
 This project is [MIT](./LICENSE) licensed.
 <a name="readme-top"></a>
-</p>
