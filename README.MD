@@ -121,7 +121,6 @@ Feel free to check the [issues page](../../issues/).
 ```I give credit to ourselves for collaborating on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
