@@ -1,0 +1,20 @@
+body {
+  width: 35%;
+  margin: 10rem 35%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+input {
+  border: 2px solid gray;
+  width: 60%;
+  height: 2rem;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #999;
+  font-size: 1rem;
+  font-weight: normal;
+}
