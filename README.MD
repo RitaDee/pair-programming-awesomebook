@@ -124,5 +124,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./LICENSE) licensed.
+<a name="readme-top"></a>
+</p>
