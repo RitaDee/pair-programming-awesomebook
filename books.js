@@ -34,3 +34,40 @@ if (stringCollection) {
   const parsedCollection = JSON.parse(stringCollection);
   collection = parsedCollection;
 }
+function getBooks() {
+  let innerhtml = '';
+
+  collection.forEach((book, index) => {
+    innerhtml += `
+    <div>
+        <div>${book.title} </div>
+        <div> ${book.author} </div>
+        <button id="remove-btn${index}">Remove</button>
+            </div>
+            <hr>
+        `;
+  });
+
+  booklist.innerHTML = innerhtml;
+
+  collection.forEach((book, index) => {
+    const removeBtn = document.getElementById(`remove-btn${index}`);
+    removeBtn.addEventListener('click', () => {
+      obj.removeBook(index);
+      getBooks();
+    });
+  });
+
+  localStorage.setItem('collection', JSON.stringify(collection));
+}
+
+getBooks();
+
+buttonAdd.addEventListener('click', (event) => {
+  event.preventDefault();
+  obj.addBook(inputTitle.value, inputAuthor.value);
+  getBooks();
+
+  inputTitle.value = '';
+  inputAuthor.value = '';
+});
