@@ -79,3 +79,81 @@ h2 {
   font-weight: 600;
   font-family: cursive;
 }
+
+/****  Third project request  *****/
+nav {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#add-book {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu a,
+.badge {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: blue;
+}
+
+#date {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  margin-bottom: 30px;
+}
+
+#list {
+  width: 100%;
+  display: none;
+}
+
+#list h1 {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  font-size: 28px;
+}
+
+#message {
+  text-align: center;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 8rem;
+}
+
+.contact-section {
+  text-align: center;
+  display: none;
+}
+
+.contact-section p {
+  padding-bottom: 24px;
+}
+
+.contact-section ul {
+  padding-bottom: 124px;
+}
+
+.contact-section ul li {
+  list-style-type: none;
+}
