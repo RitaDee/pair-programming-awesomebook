@@ -142,18 +142,18 @@ footer {
 }
 
 .contact-section {
+  text-align: center;
   display: none;
 }
 
 .contact-section p {
-  text-align: left;
   padding-bottom: 24px;
-  margin-left: 8%;
 }
 
 .contact-section ul {
-  text-align: left;
   padding-bottom: 124px;
-  margin-left: 18%;
 }
 
+.contact-section ul li {
+  list-style-type: none;
+}
