@@ -10,7 +10,7 @@ class Library {
 
   addBook(Booktitle, Bookauthor) {
     if (Booktitle && Bookauthor) {
-      const newBook = {title: Booktitle, author: Bookauthor};
+      const newBook = { title: Booktitle, author: Bookauthor };
       this.collection.push(newBook);
     }
   }
