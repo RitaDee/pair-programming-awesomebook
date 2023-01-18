@@ -11,30 +11,13 @@
 
 <body>
 
-  <header>
-    <nav>
-      <span>Awesome Books</span>
-      <ul>
-        <li id="list">
-          List
-        </li>
-        <li id="add-new">
-          Add new
-        </li>
-        <li id="contact">
-          Contact
-        </li>
-      </ul>
-    </nav>
-  </header>
-
   <section class="list-section" id="list">
-    <h1>Awesome Books</h1>
+    <center> <h1>Awesome Books</h1></center>
     <div id="booklist"></div>
   </section>
 
-  <section id="add-book">
-    <h2>Add Book</h2>
+ <center> <section id="add-book">
+    <center><h2>Add a new book</h2></center>
     <form id="book-form" method="post">
       <label for="title"></label>
       <input id='title' type="text" placeholder="title" required> <br>
@@ -42,7 +25,8 @@
       <input id='author' type="text" placeholder="author" required> <br> <br>
       <button type="button" id="add-btn">Add</button>
     </form>
-  </section>
+  </section></center>
+</main>
   <script src="books.js"></script>
 </body>
 
