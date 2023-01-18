@@ -21,6 +21,7 @@
   - [Setup](#setup)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -99,6 +100,16 @@ To run the project, execute the following command:
 - LinkedIn: [Rita Daniel](https://www.linkedin.com/in/rita-daniel/)
 
 👤 **Ismail Munyentwari**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+-Create More pages.  <br>
+-Adding a screen reader.  <br>
+-adding database to store booklist.  <br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - GitHub: [@Ismail](https://github.com/ismailmunyentwari9)
 - Instagram: [@ismail_0258](https://www.instagram.com/ismail_0258/)
