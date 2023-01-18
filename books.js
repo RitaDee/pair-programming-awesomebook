@@ -3,41 +3,36 @@ const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
 const buttonAdd = document.getElementById('add-btn');
 
-let collection = [];
-
-// It is considered good practice to name constructor functions with an upper-case first letter.
 class Library {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
+  constructor() {
+    this.collection = [];
   }
 
   addBook(Booktitle, Bookauthor) {
-    this.title = Booktitle;
-    this.author = Bookauthor;
     if (Booktitle && Bookauthor) {
-      const newBook = new Library(Booktitle, Bookauthor);
-      collection.push(newBook);
+      const newBook = {title: Booktitle, author: Bookauthor};
+      this.collection.push(newBook);
     }
   }
 
   removeBook(index) {
-    this.index = index;
-    collection.splice(index, 1);
+    this.collection.splice(index, 1);
   }
 }
 
-const stringCollection = localStorage.getItem('collection');
 const obj = new Library();
+
+const stringCollection = localStorage.getItem('collection');
 
 if (stringCollection) {
   const parsedCollection = JSON.parse(stringCollection);
-  collection = parsedCollection;
+  obj.collection = parsedCollection;
 }
+
 function getBooks() {
   let innerhtml = '';
 
-  collection.forEach((book, index) => {
+  obj.collection.forEach((book, index) => {
     innerhtml += `
     <div>
  
@@ -52,7 +47,7 @@ function getBooks() {
 
   booklist.innerHTML = innerhtml;
 
-  collection.forEach((book, index) => {
+  obj.collection.forEach((book, index) => {
     const removeBtn = document.getElementById(`remove-btn${index}`);
     removeBtn.addEventListener('click', () => {
       obj.removeBook(index);
@@ -60,7 +55,7 @@ function getBooks() {
     });
   });
 
-  localStorage.setItem('collection', JSON.stringify(collection));
+  localStorage.setItem('collection', JSON.stringify(obj.collection));
 }
 
 getBooks();
